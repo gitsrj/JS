@@ -40,6 +40,8 @@ const myFunction = function(){
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // Stack (Primitive), Heap (Non Primitive)
+// A copy of the variable is generated in stack, hence the original varible remains unchanged.
+// Reference is given in the stack, so changes are visible.
 
 let myName = "Srj"
 

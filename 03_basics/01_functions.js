@@ -32,6 +32,36 @@ function loginUserMessage(username = "Sam"){
 }
 
 // console.log(loginUserMessage("sahil"));
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
 
+// Rest operator 
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
 
+console.log(calculateCartPrice(200, 400, 100, 2000));
+
+const user = {
+    username: "sahil",
+    prices: 199,
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+    username: "sam",
+    price: 234
+})
+
+const myNewArr = [200, 344, 231, 893]
+
+function returnSecondVal(getArray){
+    // console.log(`Second element of ${getArray} is ${getArray[1]}`)
+    return getArray[1]
+}
+
+// console.log(returnSecondVal(myNewArr));
+console.log(returnSecondVal([122, 456, 532]));

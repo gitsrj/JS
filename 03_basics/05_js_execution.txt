@@ -1,0 +1,13 @@
+The code goes in the Global Execution Context, which is stored in 'this' object, which has the 'window' object in it.
+
+After that the code goes in the 1) Memory Creation Phase, where memory is alloted to the variables and all.
+
+Next it goes in the 2) Execution Phase, where the code gets executed.
+
+If there is another function in the execution phase then, a Variable Execution is created along with a thread, where again 1) and
+2) gets executed.
+
+
+Then there is the call stack showing how the functions are executed, it can be seen through inspect-> sources-> snippets, here 
+we can create a js file and see how the control flows through the code.
+We can also add breakpoints in the code.

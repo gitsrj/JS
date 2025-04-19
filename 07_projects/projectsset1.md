@@ -13,4 +13,7 @@ console.log("Projects are on Stack Blitz")
 ## Project 1 - Color Changer
 ## Project 2 - BMI Generator
 ## Project 3 - Digital Clock
-** Project 4 - Guess the number
+## Project 4 - Guess the number
+
+## Project 5 - KeyBoard Check
+## Project 6 - Unlimited Colors
